@@ -1,5 +1,16 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
+# 중복허용
+#         output =[[]]
+#         for i in nums:
+#             for j in nums:
+#                 for k in nums:
+#                     subset = [i, j, k]
+#                     output.append(subset)
+
+#         return output
+
+
         output = [[]] 
 
         for num in nums:
