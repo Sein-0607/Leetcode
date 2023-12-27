@@ -1,7 +1,7 @@
 # Leetcode
 Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 
-# 코딩 테스트 연습
+# 코딩 연습
 
 이 저장소는 LeetCode 사이트의 문제들을 활용하여 코딩 테스트 연습을 하는 곳입니다.
 
