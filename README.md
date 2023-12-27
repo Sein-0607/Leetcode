@@ -18,7 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 1. 이 저장소를 Clone 한다.
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Sein-0607/Leetcode.git
 ```
 
 2. 문제별로 작성된 소스 코드를 확인하고 실행해 볼 수 있다.
