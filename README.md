@@ -9,10 +9,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 
 | 문제 이름                                                  | 풀이 시간 | 공간 복잡도 | 
 | -------------------------------------------------------- | ----------- | ------------- | 
-| [0001-two-sum](https://leetcode.com/problems/two-sum/)   | 1673ms      | 18.2MB        | 
+| [0001-two-sum](https://leetcode.com/problems/two-sum/)   | 49ms        | 18.4MB        | 
+| [0009-palindrome-number](https://leetcode.com/problems/palindrome-number/) | 113ms  | 17.2MB        | 
+| [0013-roman-to-integer](https://leetcode.com/problems/roman-to-integer/) | -       | -             | 
 | [0078-subsets](https://leetcode.com/problems/subsets/)     | 39ms        | 17.5MB        | 
 | [0661-image-smoother](https://leetcode.com/problems/image-smoother/) | 403ms      | 17.9MB        | 
+| [1422-maximum-score-after-splitting-a-string](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | -       | -             | 
 | [1913-maximum-product-difference-between-two-pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | 134ms    | 18.8MB        | 
+| [2610-convert-an-array-into-a-2d-array-with-conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/) | 45ms | 17.4MB        |
 
 ## 설치 및 실행 방법
 
