@@ -1,29 +1,29 @@
 class Solution:
     def findMatrix(self, nums: List[int]) -> List[List[int]]:
+        nums.sort()
         answer = [] # 2d array 생성
-         
-        for num in nums:
-            if len(answer) == 0:
-                answer.append([num])
+
+        answer.append([nums[0]])
+        prev = nums[0]
+        row = 0
+
+        # print('sort : ', nums)
+
+        for i in range(1, len(nums)):
+            if prev != nums[i]:
+                row = 0
+                answer[row].append(nums[i])
+                prev = nums[i]
                 continue
+            
+            # else
+            row += 1
+            if len(answer) <= row:
+                answer.append([nums[i]])
+            else:
+                answer[row].append(nums[i])
 
-            inserted = False
-            for row in range(0, len(answer)):
-                exist = False
 
-                for col in range(0, len(answer[row])):
-                    if answer[row][col] == num:
-                        exist = True
-                        break
-                
-                if exist == False:
-                    answer[row].append(num)
-                    inserted = True
-                    break
-
-            if inserted == False:
-                answer.append([num]) # insert new row
-
-        print(answer)
+        # print(answer)
 
         return answer
