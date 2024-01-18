@@ -23,7 +23,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2610-convert-an-array-into-a-2d-array-with-conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/) | - | - | 
 | [2870-minimum-number-of-operations-to-make-array-empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/) | 584ms | 31.6MB | 
 
-```
 ## 설치 및 실행 방법
 
 1. 이 저장소를 Clone 한다.
@@ -36,8 +35,14 @@ git clone https://github.com/Sein-0607/Leetcode.git
 
 ```bash
 cd your-repo
-g++ 0001-two-sum.cpp -o two-sum
-./two-sum
+```
+
+### 문제 실행
+
+예를 들어 `0001-two-sum` 문제의 소스 코드를 실행하려면 다음과 같이 명령어를 입력합니다.
+
+```bash
+python3 0001-two-sum.py
 ```
 
 ## 기타 정보
