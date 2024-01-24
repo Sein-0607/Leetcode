@@ -7,6 +7,6 @@ class Solution:
             if nums[i] > min_num:
                 max_diff = max(max_diff, nums[i]-min_num)
             else:
-                 min_num = nums[i]
+                min_num = nums[i]
                     
         return max_diff
