@@ -1,52 +1,66 @@
-# Leetcode
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+# LeetCode 문제 풀이
 
-# 코딩 연습
+이 저장소는 LeetCode 문제들을 풀이하고 이를 통해 코딩 인터뷰를 준비하는 것을 목적으로 합니다. 각 문제에 대한 소스 코드와 함께, 문제를 해결하기 위한 접근 방법 및 설명을 포함하고 있습니다.
 
-이 저장소는 LeetCode 사이트의 문제들을 활용하여 코딩 테스트 연습을 하는 곳입니다.
+## 목차
+
+- [문제 목록](#문제-목록)
+- [사용 방법](#사용-방법)
+- [기여하기](#기여하기)
+- [라이선스](#라이선스)
 
 ## 문제 목록
 
-| 문제 이름                                                             | 풀이 시간 | 공간 복잡도 | 
-| ------------------------------------------------------------------- | ----------- | ------------- | 
-| [0001-two-sum](https://leetcode.com/problems/two-sum/)              | 49ms        | 18.4MB        | 
-| [0009-palindrome-number](https://leetcode.com/problems/palindrome-number/) | 113ms   | 17.2MB        | 
-| [0013-roman-to-integer](https://leetcode.com/problems/roman-to-integer/) | -       | -             | 
-| [0014-longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/) | - | -             | 
-| [0020-valid-parentheses](https://leetcode.com/problems/valid-parentheses/) | 35ms   | 17.3MB        | 
-| [0021-merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 32ms | 17.3MB        | 
-| [0026-remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | - | - | 
-| [0078-subsets](https://leetcode.com/problems/subsets/)              | 39ms        | 17.5MB        | 
-| [0661-image-smoother](https://leetcode.com/problems/image-smoother/) | 403ms      | 17.9MB        | 
-| [1422-maximum-score-after-splitting-a-string](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | -  | - | 
-| [1913-maximum-product-difference-between-two-pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | 134ms    | 18.8MB | 
-| [2610-convert-an-array-into-a-2d-array-with-conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/) | - | - | 
-| [2870-minimum-number-of-operations-to-make-array-empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/) | 584ms | 31.6MB | 
+여기에 각 문제에 대한 링크와, 풀이에 사용된 시간, 메모리 사용량을 정리한 표를 포함합니다.
 
-## 설치 및 실행 방법
+| 문제 번호 | 문제 이름                     | 풀이 시간 | 메모리 사용량 |
+|-----------|-------------------------------|-----------|---------------|
+| 0001      | [Two Sum](#0001-two-sum)      | 49ms      | 18.4MB        |
+| 0009      | [Palindrome Number](#0009-palindrome-number) | 113ms      | 17.2MB        |
+| 0013      | [Roman to Integer](#0013-roman-to-integer) | - | - |
+| 0014      | [Longest Common Prefix](#0014-longest-common-prefix) | - | - |
+| 0020      | [Valid Parentheses](#0020-valid-parentheses) | 35ms      | 17.3MB        |
+| 0021      | [Merge Two Sorted Lists](#0021-merge-two-sorted-lists) | 32ms      | 17.3MB        |
+| 0026      | [Remove Duplicates from Sorted Array](#0026-remove-duplicates-from-sorted-array) | - | - |
+| 0070      | [Climbing Stairs](#0070-climbing-stairs) | 38ms      | 16.5MB        |
+| 0078      | [Subsets](#0078-subsets)      | 39ms      | 17.5MB        |
+| 0121      | [Best Time to Buy and Sell Stock](#0121-best-time-to-buy-and-sell-stock) | - | - |
+| 0661      | [Image Smoother](#0661-image-smoother) | 403ms     | 17.9MB        |
+| 0746      | [Min Cost Climbing Stairs](#0746-min-cost-climbing-stairs) | - | - |
+| 1137      | [N-th Tribonacci Number](#1137-n-th-tribonacci-number) | 44ms      | 16.6MB        |
+| 2870      | [Minimum Number of Operations to Make String Sorted](#2870-minimum-number-of-operations-to-make-string-sorted) | 584ms     | 31.6MB        |
 
-1. 이 저장소를 Clone 한다.
+## 사용 방법
 
-```bash
-git clone https://github.com/Sein-0607/Leetcode.git
-```
+이 섹션에서는 저장소를 어떻게 사용하는지에 대해 설명합니다. 예를 들어, 문제를 어떻게 실행하고 테스트하는지에 대한 방법을 포함합니다.
 
-2. 문제별로 작성된 소스 코드를 확인하고 실행해 볼 수 있다.
+## 기여하기
 
-```bash
-cd your-repo
-```
+다른 사람들이 기여할 수 있도록 기여하는 방법에 대해 설명합니다.
 
-### 문제 실행
+## 라이선스
 
-예를 들어 `0001-two-sum` 문제의 소스 코드를 실행하려면 다음과 같이 명령어를 입력합니다.
+이 프로젝트는 [MIT 라이선스](LICENSE) 하에 배포됩니다.
 
-```bash
-python3 0001-two-sum.py
-```
+---
 
-## 기타 정보
+### 0001 Two Sum
 
-- 이 저장소는 Python3 언어를 사용하여 문제를 풀고 있습니다.
-- 참고 자료로는 LeetCode 사이트의 Problems을 활용하였습니다.
-```
+#### 문제 링크
+
+[LeetCode 0001 Two Sum](문제의 URL)
+
+#### 문제 설명
+
+`Two Sum` 문제는 주어진 정수 배열 nums와 정수 target을 사용하여, 배열 내 두 숫자를 더하여 target을 만들 수 있는 두 인덱스를 반환해야 합니다.
+
+#### 접근 방법
+
+이 문제를 해결하기 위한 접근 방법을 단계별로 설명합니다. 예를 들어, 해시 테이블을 사용하여 한 번의 순회로 문제를 해결할 수 있습니다.
+
+#### 코드
+
+```python
+def twoSum(nums, target):
+    # 여기에 코드를 작성하고, 주석을 달아 설명합니다.
+    pass
